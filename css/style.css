@@ -1,0 +1,99 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+   list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+.container{
+    width: 1140px;
+   
+    margin: 0 auto;
+}
+/* common css end */
+#headerPart{
+    padding: 10px;
+    background: #222831;
+    border-bottom:2px solid #EEEEEE ;
+}
+.menuBar{
+    display: flex;
+    align-items: center;
+   
+ 
+}
+.menu ul{
+    display: flex;
+}
+.menuBar .logo{
+    width: 70%;
+}
+.menuBar .menu{
+width: 30%;
+}
+.menuBar .menu ul li a{
+    padding: 0 24px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+/* banner part start */
+#bannerPart{
+    margin-top: 0.1px;
+    background: #222831;
+    height: 200px;
+    padding-top: 205px;
+    padding-bottom: 400px;
+}
+.bannerContent .bannerTxt{
+ width: 601px; 
+ 
+}
+.bannerContent .bannerTxt h1{
+    line-height: 96px; 
+ font-weight: 700;
+ font-size: 96px;
+ color: #FFFFFF;
+}
+.bannerContent .bannerTxt span{
+    font-weight: 700;
+ font-size: 96px;
+ color: #00ADB5;
+}
+.button a{
+padding: 10px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #EEEEEE;
+    background: #00ADB5;
+    border: none;
+    border-radius: 23px;
+    text-align: center;
+    transition: .4s;
+}
+.button{
+    margin-top: 48px;
+}
+.button a:hover{
+color: #EEEEEE;
+background: #393E46;
+}
+
+
+
+
+/* banner part end */
+
+    
