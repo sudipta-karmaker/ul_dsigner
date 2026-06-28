@@ -222,5 +222,80 @@ left: 120px;
 }
 
   /* recent work part end */
+/* project part start */
 
+#projectPart{
+    background: #222831;
+ margin-top: 1px;
+    padding-top: 205px;
+    padding-bottom: 400px;}
+    .projectContent .projectTxt span{
+        color: #00ADB5;
+    }
+     .projectContent .projectTxt h2{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 80px;
+        color: #FFFFFF;
+     }
+     .projectContent .projectTxt{
+       
+width: 679px;
+     }
+     .projectContent{
+        display: flex;
+     }
+     .projectContent .projectImg{
+        position: relative;
+        display: flex;
+     }
+     .projectContent .projectImg .imgOne{
+        position: absolute;
+        right: 183px;
+        top: 320px;
+     }
+     .projectContent .projectImg .imgTwo{
+        position: absolute;
+        right: 263px;
+        top: 168px;
+     }
+     .projectContent .projectImg .projectDesign{
+        position: absolute;
+        right: 470px;
+        top: 269px;
+     }
+     .projectContent .projectForm .common{
+        width: 400px;
+        background: #393E46;
+        border-radius: 16px;
+        margin-bottom: 10px;
+        padding: 16px;
+
+        
+     }
+     .projectContent .projectForm{
+        display: block;
+     }
+      .projectContent .projectForm h2{
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+      }
+.projectContent .projectForm .button i{
+    margin-left: 5px;
+}
+.projectForm{
+    position: relative;
+}
+.projectForm .keyboard{
+    position: absolute;
+    top:-155px;
+    right: 200px;
+}
+.projectForm .emailImg{
+    position: absolute;
+    right: 0;
+    bottom: -180px;
+}
+/* project part end */
     
