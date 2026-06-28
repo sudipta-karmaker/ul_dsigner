@@ -275,8 +275,11 @@ left: 120px;
 
         
      }
-     .projectContent .projectForm{
-        display: block;
+     .projectContent .projectForm .formfrist{
+        display: flex;
+        gap: 28px;
+        align-items: center;
+          
      }
       .projectContent .projectForm h2{
         font-weight: 700;
@@ -302,8 +305,7 @@ left: 120px;
 /* project part end */
     #footerPart{
 background: #222831;
- 
-padding: 100px;
+padding: 10px;
 
 
 }
@@ -353,3 +355,12 @@ padding: 10px;
 border-radius: 50%;
    
 }
+.footerContent .footerBottom p{
+    
+    color: #EEEEEE;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: end;
+    padding: 50px 95px;
+}
+
