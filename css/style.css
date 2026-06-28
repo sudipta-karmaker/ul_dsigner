@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,p{
 #headerPart{
     padding: 10px;
     background: #222831;
-    border-bottom:2px solid #EEEEEE ;
+ border-bottom: 1px solid #393E46;
 }
 .menuBar{
     display: flex;
@@ -51,11 +51,12 @@ width: 30%;
 }
 /* banner part start */
 #bannerPart{
-    margin-top: 0.1px;
+  
     background: #222831;
 
     padding-top: 205px;
     padding-bottom: 400px;
+     border-bottom: 1px solid #393E46;
 }
 .bannerContent .bannerTxt{
  width: 601px; 
@@ -120,9 +121,10 @@ top: 60%;
 /* about part start */
 #aboutPart{
     background: #222831;
- margin-top: 1px;
+
     padding-top: 205px;
     padding-bottom: 400px;
+     border-bottom: 1px solid #393E46;
 }
 .aboutContent{
     display: flex;
@@ -192,7 +194,7 @@ left: 120px;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   
+    border-bottom: 1px solid #393E46;
 }
 .recentConcent .recentText{
     font-weight:  700;
@@ -226,9 +228,10 @@ left: 120px;
 
 #projectPart{
     background: #222831;
- margin-top: 1px;
     padding-top: 205px;
-    padding-bottom: 400px;}
+    padding-bottom: 400px;
+     border-bottom: 1px solid #393E46;
+}
     .projectContent .projectTxt span{
         color: #00ADB5;
     }
@@ -239,8 +242,7 @@ left: 120px;
         color: #FFFFFF;
      }
      .projectContent .projectTxt{
-       
-width: 679px;
+        width: 679px;
      }
      .projectContent{
         display: flex;
@@ -298,4 +300,56 @@ width: 679px;
     bottom: -180px;
 }
 /* project part end */
+    #footerPart{
+background: #222831;
+ 
+padding: 100px;
+
+
+}
+.footerContent .footerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContent .footerText a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px;
     
+}
+.footerContent .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footerContent .icon .facebook{
+background: #393E46;
+margin-left: 10px;
+border-radius: 50%;
+padding: 10px;
+   
+}
+.footerContent .icon .instra{
+background: #393E46;
+margin-left: 10px;
+border-radius: 50%;
+padding: 10px;
+   
+}
+.footerContent .icon .twitter{
+background: #393E46;
+margin-left: 10px;
+border-radius: 50%;
+padding: 10px;
+   
+}
+.footerContent .icon .youtube{
+background: #393E46;
+margin-left: 10px;
+padding: 10px;
+border-radius: 50%;
+   
+}
