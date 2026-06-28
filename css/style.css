@@ -294,8 +294,8 @@ left: 120px;
 }
 .projectForm .keyboard{
     position: absolute;
-    top:-155px;
-    right: 200px;
+    top:-173px;
+    right: 615px;
 }
 .projectForm .emailImg{
     position: absolute;
@@ -321,10 +321,14 @@ padding: 10px;
     padding: 10px;
     
 }
+.footerContent .footerText a i{
+    margin-right: 10px;
+}
 .footerContent .icon{
     display: flex;
     justify-content: center;
     align-items: center;
+  
    
 }
 .footerContent .icon .facebook{
